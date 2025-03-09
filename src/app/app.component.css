@@ -1,0 +1,8 @@
+.card{
+    width: 200px;
+    background-color: gainsboro;
+    min-height: 300px;
+    padding: 30px;
+    border-radius: 30px;
+    margin: auto;
+}
