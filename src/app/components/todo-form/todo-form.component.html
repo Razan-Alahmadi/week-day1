@@ -1,0 +1,8 @@
+
+<h1>My ToDo List</h1>
+<div class="formdiv">
+  <form [formGroup]="todoForm" (ngSubmit)="addTask()">
+    <input type="text" formControlName="task" placeholder="Enter task" />
+    <button type="submit" [disabled]="todoForm.invalid">Add Task</button>
+  </form>
+</div>
